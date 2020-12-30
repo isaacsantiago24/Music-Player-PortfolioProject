@@ -1,0 +1,75 @@
+.library {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 23rem;
+  height: 100%;
+  background: #2a3a5f;
+  box-shadow: 2px 2px 50px gray;
+  overflow: scroll;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+  h2 {
+    padding: 2rem;
+    font-size: 2rem;
+  }
+}
+.library-song {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 2rem;
+  transition: background 0.5s ease;
+  img {
+    width: 40%;
+  }
+  &:hover {
+    background: #434c5a;
+  }
+}
+
+.song-description {
+  padding-left: 1rem;
+  h3 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+    color: #ffecda;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #fc716a transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 100%;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #7589b3;
+  border-radius: 20px;
+  border: transparent;
+}
+
+.selected {
+  background: violet;
+}
+
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
+}
