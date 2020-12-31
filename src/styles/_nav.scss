@@ -3,17 +3,19 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #39383e;
   button {
     background: transparent;
     border: none;
     cursor: pointer;
-    border: 2px solid rgb(134, 133, 133);
+    border: 2px solid #eec910;
+    color: white;
     border-radius: 9%;
     padding: 0.5rem;
     transition: all 0.3 ease;
     &:hover {
-      background: rgb(65, 65, 65);
-      color: white;
+      background: white;
+      color: #39383e;
     }
   }
 }

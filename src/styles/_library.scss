@@ -4,8 +4,8 @@
   left: 0;
   width: 23rem;
   height: 100%;
-  background: #2a3a5f;
-  box-shadow: 2px 2px 50px gray;
+  background: #625c76;
+  box-shadow: 4px 4px 20px rgb(136, 136, 177);
   overflow: scroll;
   transform: translateX(-100%);
   transition: all 0.5s ease;
@@ -20,12 +20,12 @@
   align-items: center;
   cursor: pointer;
   padding: 1rem 2rem 1rem 2rem;
-  transition: background 0.5s ease;
+  transition: background 0.5s;
   img {
     width: 40%;
   }
   &:hover {
-    background: #434c5a;
+    background: #9fa8d9;
   }
 }
 
@@ -36,13 +36,13 @@
   }
   h4 {
     font-size: 0.9rem;
-    color: #ffecda;
+    color: #e6e2ff;
   }
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #fc716a transparent;
+  scrollbar-color: #defdf0 transparent;
 }
 
 *::-webkit-scrollbar {
@@ -54,13 +54,13 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: #7589b3;
+  background-color: #39383d;
   border-radius: 20px;
   border: transparent;
 }
 
 .selected {
-  background: violet;
+  background: #9fa8d9;
 }
 
 .active-library {

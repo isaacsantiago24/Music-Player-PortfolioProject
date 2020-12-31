@@ -53,7 +53,7 @@ function App() {
     <div className={`App ${libraryStatus ? "library-active" : ""}`}>
       {/* returning our components and passing our state to our component */}
       <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
-      <Song currentSong={currentSong} />
+      <Song currentSong={currentSong} isPlaying={isPlaying} />
       <Player
         audioRef={audioRef}
         currentSong={currentSong}

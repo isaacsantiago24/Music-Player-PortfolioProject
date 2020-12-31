@@ -4,12 +4,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background: #39383e;
+  padding-bottom: 18rem;
 }
 
 .time-control {
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: center;
+  color: #ebe7fc;
+
   input {
     //same as saying .time-control input{}
     width: 100%;
@@ -27,7 +31,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  width: 30%;
+  width: 20%;
+  color: #ebe7fc;
   svg {
     cursor: pointer;
   }
