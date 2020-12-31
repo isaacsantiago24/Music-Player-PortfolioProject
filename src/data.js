@@ -10,7 +10,7 @@ function chillHop() {
         "https://mp3d.jamendo.com/?trackid=1791799&format=mp32&from=MhRJJTnFrnndkyfvNMHNaQ%3D%3D%7Ci6nEbDzIgRPsoFWi2tTQng%3D%3D",
       color: ["#DA9FB7", "#7C547C"],
       id: uuidv4(),
-      active: false,
+      active: true,
     },
     {
       name: "See The World",
@@ -21,7 +21,7 @@ function chillHop() {
         "https://mp3d.jamendo.com/?trackid=1768731&format=mp32&from=b4seYqwE6M1XjsyR7YeQFg%3D%3D%7CcakUE%2FG6D6p5LkgwEaoJdw%3D%3D",
       color: ["#EC0B1A", "#04ABEF"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Talk a Little",
